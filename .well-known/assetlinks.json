@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.arulsdk.mindfulmoment7y4ko4c",
+      "sha256_cert_fingerprints":
+        ["C0:EB:E1:82:78:95:4F:85:14:4E:49:D1:FA:8C:32:7B:46:4F:0D:4E:0B:6B:6D:29:D5:B7:16:66:B2:E2:F4:A8"]
+    }
+  }
+]
+
