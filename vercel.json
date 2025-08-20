@@ -1,13 +1,9 @@
 {
-  "buildCommand": "expo export -p web",
-  "outputDirectory": "dist",
-  "devCommand": "expo",
-  "cleanUrls": true,
-  "framework": null,
-  "rewrites": [
+  "rewrites": [{ "source": "/connect/(.*)", "destination": "/connect/index.html" }],
+  "headers": [
     {
-      "source": "/:path*",
-      "destination": "/"
+      "source": "/.well-known/assetlinks.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }]
     }
   ]
 }
